@@ -1,0 +1,106 @@
+
+.main{
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.img{
+    background-image: url('../images/1.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.hr{
+    border-top: 2px dashed gray;
+}
+.progress-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(
+        var(--color, #0d6efd) calc(var(--percentage, 0) * 1%),
+        #e9ecef 0
+      );
+}
+.progress-circle::before {
+    content: attr(data-percentage) "%";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+.program1{
+    background-image: url('../images/2.png');
+    background-repeat: no-repeat;
+    /* width: 700px; */
+}
+.program2{
+    background-image: url('../images/3.png');
+    background-repeat: no-repeat;
+    /* width: 700px; */
+    background-color: blue;
+}
+.golf-player{
+    background-image: url('../images/4.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.player-des{
+    padding: 30px;
+}
+.player-cloth{
+    align-items: center;
+    
+}
+.player-thing{
+    /* margin-right: 70px; */
+}
+.clent-discution{
+    align-items: center;
+}
+.call{
+    background-color:#d9e1cc;
+}
+.sms{
+    background-color:#ece1cc;
+}
+.location{
+    background-color: #ced7e4;
+}
+.contact-section{
+    align-items: center;
+}
+.phone-call{
+    width: 450px;
+}
+.send-message{
+    width: 540px;
+}
+.foter{
+    align-items: center;
+}
+.first-col{
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 110px;
+}
+.second-col{
+    padding-top: 70px;
+    padding-left: px;
+    padding-bottom: 110px;
+}
+.third-col{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 110px;
+}
+.fourth-col{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 110px;
+}
